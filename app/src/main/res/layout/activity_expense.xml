@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context=".activities.IncomeActivity">
+
+    <include layout="@layout/toolbar" />
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:drawablePadding="14dp"
+        android:onClick="onClick"
+        android:textSize="16sp"
+        android:id="@+id/expenseDate"
+        android:drawableStart="@drawable/ic_calendar"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/drawable_edittext_background"
+        android:focusable="false"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/expense_date"
+        android:imeOptions="actionNext"
+        android:padding="16dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        android:id="@+id/expenseType"
+        android:inputType="textCapWords"
+        android:textSize="16sp"
+        android:drawablePadding="14dp"
+        android:drawableStart="@drawable/ic_income"
+        android:background="@drawable/drawable_edittext_background"
+        android:fontFamily="@font/poppins"
+        android:hint="@string/expense_type"
+        android:imeOptions="actionNext"
+        android:padding="16dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="25dp"
+        app:boxBackgroundMode="none"
+        app:hintEnabled="false"
+        app:counterEnabled="true"
+        app:counterMaxLength="20"
+        app:counterTextColor="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/drawable_edittext_background"
+            android:fontFamily="@font/poppins"
+            android:hint="@string/comment"
+            android:padding="16dp"
+            android:id="@+id/expenseComment"
+            android:inputType="textCapWords"
+            android:textSize="16sp"
+            android:drawablePadding="14dp"
+            android:drawableStart="@drawable/ic_notepad"
+            android:imeOptions="actionNext"
+            android:maxLength="20"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="5dp"
+        android:textSize="16sp"
+        android:id="@+id/expenseAmount"
+        android:drawablePadding="14dp"
+        android:hint="@string/amount"
+        android:layout_marginBottom="5dp"
+        android:drawableStart="@drawable/ic_rupee"
+        android:background="@drawable/drawable_edittext_background"
+        android:fontFamily="@font/poppins"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/save"
+        android:onClick="onClick"
+        android:textSize="16sp"
+        android:id="@+id/btnSaveExpense"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@drawable/drawable_gradient"
+        />
+
+</LinearLayout>
