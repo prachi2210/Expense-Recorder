@@ -15,8 +15,8 @@ Project follows MVVVM architecture and mai dependecies used in this project are 
 1. I have created a transaction table with fields - val id: Int, val amount: Double, val date: Long, val type: String.val comment: String. val transaction_type: String.
 2. Created dashboard with expandable fab button for adding income and expense.
 3. Created two new screens, 1 for Adding income and the other for addimg expense.
-4. To add code resuablility, I did not create a separate screen for editing transaction, used the same ones we are using for adding transactions.
-5. Added queries for insertion, updation, deletion and get current month data.
+4. To allow code resuablility, I did not create a separate screen for editing transaction, rather used the same ones we are using for adding transactions.
+5. Added queries for insertion, updation, deletion and get current month's data.
 
 
 
@@ -24,7 +24,7 @@ Project follows MVVVM architecture and mai dependecies used in this project are 
 
  Asumption - 
    For filter search, there is no option for selecting year in the wireframes therefore I assumed the months would be of current year. 
-  Additionally i have added a year filter, if the user wishes to see the transactions for previous year. 
+  Additionally I have added a 'year' filter to carter to scenarios where the user wishes to see the transactions for previous year, as an example. 
 
 Summary - 
  1. Fetching data according to the selected year and month from the database. 
