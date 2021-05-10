@@ -5,14 +5,13 @@ Expense Recorder helps you check your monthly/yearly transactions and you can ad
 
 
 
-**About the Project**
+**About the Project**:
 This project is build on Android Studio 4.1.3 using min SDK as 21 in Kotlin Programming Language. 
 Project follows MVVVM architecture and mai dependecies used in this project are of Room , Lifecycle and Kotlin Components.
 
 
 
 **MileStone 1 Summary**
-
 1. I have created a transaction table with fields - val id: Int, val amount: Double, val date: Long, val type: String.val comment: String. val transaction_type: String.
 2. Created dashboard with expandable fab button for adding income and expense.
 3. Created two new screens, 1 for Adding income and the other for addimg expense.
