@@ -28,7 +28,7 @@ Project follows MVVVM architecture and the main dependecies used in this project
 
 Summary - 
  1. Fetching data according to the selected year and month from the database. 
- 2. Searching the  list for keywords and adding it to a different list of same object type, and later updating the recyclerview adapter with the filteed list.
+ 2. Searching the  list for keywords and adding it to a different list of same object type, and later updating the recyclerview adapter with the filtered list.
 
 
 
