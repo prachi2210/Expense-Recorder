@@ -23,8 +23,8 @@ Project follows MVVVM architecture and mai dependecies used in this project are 
 **Milestone 2**
 
  Asumption - 
-   For filter search - Since there is no option for selecting year in the wireframes, I assumed the months would be of current year. 
-   I have additionally added a year filter, if the user wishes to see the transactions for previous year. 
+   For filter search, there is no option for selecting year in the wireframes therefore I assumed the months would be of current year. 
+  Additionally i have added a year filter, if the user wishes to see the transactions for previous year. 
 
 Summary - 
  1. Fetching data according to the selected year and month from the database. 
