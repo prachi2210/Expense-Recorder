@@ -1,13 +1,13 @@
 # Expense Recorder
 
 **About the App**:
-Expense Recorder helps you check your monthly/yearly transactions and you can add new, update and delete each transaction.
+Expense Recorder helps you check your monthly/yearly transactions and allos you to add new, update and/or delete certain transaction(s).
 
 
 
 **About the Project**:
-This project is build on Android Studio 4.1.3 using min SDK as 21 in Kotlin Programming Language. 
-Project follows MVVVM architecture and mai dependecies used in this project are of Room , Lifecycle and Kotlin Components.
+This project is built on Android Studio 4.1.3 using min SDK as 21 in Kotlin Programming Language. 
+Project follows MVVVM architecture and the main dependecies used in this project are of Room , Lifecycle and Kotlin Components.
 
 
 
