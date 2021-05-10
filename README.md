@@ -1,7 +1,7 @@
 # Expense Recorder
 
 **About the App**:
-Expense Recorder helps you check your monthly/yearly transactions and allos you to add new, update and/or delete certain transaction(s).
+Expense Recorder helps you check your monthly/yearly transactions and allows you to add new, update and/or delete certain transaction(s).
 
 
 
